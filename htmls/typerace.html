@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mario Kart</title>
+  <link rel="stylesheet" href="../csss/mariokart.css">
+  <script src="../javascripts/index.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="alert">
+    <h1>Jelenleg csak az Anonim opció érhető el!</h1>
+  </div>
+  <div id="logreg">
+    <div id="nemanonim">
+      <a href="index.html" id="vissza"><img src="../imgs/questionblock.png" alt="kerdojel"></p></a>
+      <hr>
+      <!-- Login form -->
+      <div id="login">
+        <button type="submit" id="loginbutton" class="button">
+          <h2>Bejelentkezés</h2>
+        </button>
+        <form id="loginForm" method="POST">
+          <input type="text" id="loginUsername" name="username" required placeholder="Felhasználónév"><br>
+          <input type="password" id="loginPassword" name="password" required placeholder="Jelszó"><br>
+        </form>
+      </div>
+
+      <!-- Register form -->
+      <div id="register" id="regbutton">
+        <button type="submit" class="button">
+          <h2>Regisztráció</h2>
+        </button>
+        <form id="registerForm" method="POST">
+          <input type="text" id="regUsername" name="username" required placeholder="Felhasználónév"><br>
+          <input type="password" id="regPassword" name="password" required placeholder="Jelszó"><br>
+        </form>
+      </div>
+      <hr>
+      <div id="anonim">
+        <a href="mariokart.html" id="karta"><h2 id="h2" style="color: white; font-variant: normal; font-weight: 500;">Anonim</h2></a>
+        </button>
+        <div id="karakterek">
+          <img id="karaktervalasztas" src="../kartcharakters/anonim.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

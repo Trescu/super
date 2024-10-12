@@ -1,0 +1,135 @@
+body {
+  background-image: url('../imgs/kekblocck.png');
+  background-size: 50px;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40rem;
+  cursor: url('../imgs/icons8-mushroom-24.png'), auto;
+  font-family: Roboto;
+}
+
+#logreg {
+  width: fit-content;
+  height: fit-content;
+  background-color: #CE4D09;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  display: flex;
+  padding: 10px;
+  border-radius: 3px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+a {
+  all: unset;
+}
+
+a:hover {
+  color: aliceblue;
+  cursor: url('../imgs/elenkicons8-mushroom-24.png'), auto;
+}
+
+p {
+  justify-self: center;
+  align-self: center;
+  position: absolute;
+}
+
+button:hover {
+  cursor: url('../imgs/elenkicons8-mushroom-24.png'), auto;
+}
+
+#login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+#register {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+h2, #h2 {
+  border-radius: 3px;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  padding: 2px;
+  text-align: center;
+}
+
+.button {
+  all: unset;
+  color: white;
+  font-weight: 100;
+  font-variant: small-caps;
+}
+
+input {
+  border: 0px;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 2px;
+  text-align: start;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+#karakterek {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 50px;
+}
+
+button:active {
+  color: #CE4D09;
+  height: min-content;
+}
+
+#karaktervalasztas {
+  border-radius: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #CE4D09;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+
+#alert {
+  position: absolute;
+  top: 0;
+  justify-self: center;
+  font-size: 8px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 2px;
+  border: 2px solid red;
+}
+
+#karta {
+  all: unset;
+}
+
+#karta:hover {
+  cursor: url('../imgs/elenkicons8-mushroom-24.png'), auto;
+}
+
+h1 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
