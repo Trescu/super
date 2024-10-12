@@ -61,12 +61,17 @@ a:hover {
 
 #szo {
   width: 100%;
-  background-color: yellow;
+  background-color: #CE4D09;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 3px;
+  border-radius: 3px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
 }
 
 #anonim, #gep, #oszlopanonim, #oszlopgep  {
@@ -142,4 +147,15 @@ input {
 
 input {
   width: min-content;
+}
+
+#random-word, #leveling {
+  padding: 3px;
+  border-radius: 3px;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  color: white;
+  font-variant: small-caps;
 }
