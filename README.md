@@ -1,1 +1,1 @@
-"# super" 
+"Házi feladat. Szabadon felhasználható" 
